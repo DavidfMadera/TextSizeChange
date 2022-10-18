@@ -35,7 +35,9 @@ class MainActivity : AppCompatActivity(), SizeFragment.ValueChangeInterface {
 
     override fun onChange(value: Int) {
         // Change text size
+        //Did not get to this part
         textFragment.changeTextSize(value.toFloat())
     }
+
 
 }
